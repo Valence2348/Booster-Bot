@@ -78,4 +78,4 @@ async def checkboosters(ctx):
                 
 
 # Make sure this is LAST
-bot.run("TOKEN")
+bot.run(os.getenv("TOKEN"))
